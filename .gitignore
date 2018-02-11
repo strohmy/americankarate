@@ -1,1 +1,4 @@
+# Use this file to list any files in the working folder
+# that shouldn't be synced to Github or Production.
+
 .DS_Store
