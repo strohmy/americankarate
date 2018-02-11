@@ -147,6 +147,9 @@ table th {
   font-weight: bold;
 }
 @media (max-width: 500px) {
+  body, html {
+    overflow-x: hidden;
+  }
   h1 {
     font-size: 36px;
     padding: 5px;
