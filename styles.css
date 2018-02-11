@@ -1,0 +1,209 @@
+header {
+  margin: -50px -20px 0 -20px;
+  padding: 0px;
+  text-align: center;
+  background: url("scrolls.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-size: 16px;
+}
+a {
+  color: white;
+}
+h1 {
+  padding: 20px 0 0 0;
+  font-size: 60px;
+}
+body {
+  font-family: helvetica;
+  background: url("class.jpg");
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: lighten;
+  font-size: 16px;
+  padding: 0;
+}
+ul {
+  padding: 10px;
+  background: rgba(0,0,0,0.5);
+}
+li {
+  display: inline;
+  padding: 0px 10px 0px 10px;
+}
+div {
+  background-color: rgba(200,200,200,0.85);
+  max-width: 740px;
+  margin: auto;
+  padding: 30px;
+  border-radius: 6px;
+}
+button {
+  border: 0;
+  padding: 10px;
+  font-size: 18px;
+}
+img {
+  border-radius: 5px;
+}
+table {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  table-layout: fixed;
+}
+table caption {
+  font-size: 1.5em;
+  margin: .5em 0 .75em;
+}
+table tr {
+  background: #f8f8f8;
+  border: 1px solid #ddd;
+  padding: .35em;
+}
+table th,
+table td {
+  padding: .625em;
+  text-align: center;
+}
+table th {
+  font-size: .85em;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+.logo {
+  margin-top: -30px;
+}
+.container {
+  margin-top: -16px;
+  border-radius: 0;
+}
+.header-content {
+  max-width: 800px;
+  margin: auto;
+  padding: 0;
+  border-radius: 0;
+  background-color: rgba(0,0,0,0.6);
+}
+.tagline {
+  margin: 0 0 0 10;
+}
+.section-image {
+  text-align: center;
+  padding: 10 0 0 0;
+  margin: 0;
+}
+.headshot {
+  float: right;
+  margin: 5px;
+}
+.phone {
+  color: black;
+}
+.callbutton {
+  margin: -40 0 0 0;
+  text-align: center;
+}
+.googlemap {
+  margin: -60 0 0 0;
+  text-align: center;
+}
+.resources {
+  text-align: center;
+}
+.social-links {
+  text-align: center;
+}
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+.special-price {
+  color: red;
+  font-weight: bold;
+}
+@media (max-width: 500px) {
+  h1 {
+    font-size: 36px;
+    padding: 5px;
+  }
+  li {
+    padding: 15px;
+  }
+  div {
+    max-width: none;
+    margin: auto;
+    padding: auto;
+  }
+  table {
+    border: 0;
+  }
+  table caption {
+    font-size: 1.3em;
+  }
+  table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+  table tr {
+    border-bottom: 3px solid #ddd;
+    display: block;
+    margin-bottom: .625em;
+  }
+  table td {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    font-size: .8em;
+    text-align: right;
+  }
+  table td:before {
+    /*
+    * aria-label has no advantage, it won't be read inside a table
+    content: attr(aria-label);
+    */
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  table td:last-child {
+    border-bottom: 0;
+  }
+  .header-content {
+    max-width: none;
+    width: 100%;
+  }
+  .container {
+    width: 100%;
+  }
+}
